@@ -1,2 +1,2 @@
 # Last-Zone-RP
-Этот сайт - заказ студии по Last Zone RP
+This site is a studio order for Last Zone RP
