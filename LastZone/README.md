@@ -1,39 +1,43 @@
-# LastZone
+# 🌌 Last Zone RP — Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+**Last Zone RP** — это одностраничный сайт-визитка, созданный для игровой студии **Last Zone RP**.  
+Проект разработан с нуля, без использования бэкенда — полностью фронтенд-реализация на **Vue 3**, **TypeScript** и **Tailwind CSS**.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Технологии
 
-## Type Support for `.vue` Imports in TS
+- ⚙️ **Vue 3** — компонентный фреймворк  
+- 🧠 **TypeScript** — строгая типизация  
+- 🎨 **Tailwind CSS** — быстрая и адаптивная верстка  
+- 📱 Адаптивность на стандартных брейкпойнтах: `sm`, `md`, `lg`, `xl`, `2xl`  
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 💡 Функционал
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- 🖼️ Галерея с **каруселью изображений** (автоматическая и ручная смена фото)  
+- 📱 Полная адаптивность под все устройства  
+- 🧩 Чистый фронтенд без серверной части  
+- 🧑‍🎨 Дизайн и макет выполнены вручную в [Figma](https://figma.com/design/CK3lQbscJ1mPBwHUTDtGRK/Untitled?t=FdtyVBwjktTCuzrZ-0)
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 🎥 Демонстрация сайта
 
-### Compile and Hot-Reload for Development
+| Главный экран | Галерея | Адаптив |
+|----------------|----------|----------|
+| *(здесь будет гиф сайта)* | *(здесь будет гиф галереи)* | *(здесь будет гиф адаптива)* |
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
+## 🧑‍💻 Автор
 
-```sh
-npm run build
-```
+Разработка и дизайн: **Ostrovsky Ivan**  
+🔗 Макет в Figma: [ссылка](https://figma.com/design/CK3lQbscJ1mPBwHUTDtGRK/Untitled?t=FdtyVBwjktTCuzrZ-0)
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 🪐 Лицензия
+
+Этот проект создан в рамках заказа для **Last Zone RP Studio** и используется как визитка проекта.
