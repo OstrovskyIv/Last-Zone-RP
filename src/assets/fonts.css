@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Capture-it';
+  src: url('./fonts/Capture-it.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABeeZee'; /* Regular */
+  src: url('./fonts/ABeeZee-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABeeZee'; /* Italic */
+  src: url('./fonts/ABeeZee-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Caprasimo'; /* Regular */
+  src: url('./fonts/Caprasimo-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
