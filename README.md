@@ -1,39 +1,89 @@
-# LastZone
+# ☢️ Last Zone RP — Промо-сайт STALKER RolePlay сервера
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg?style=for-the-badge&logo=vercel)](https://ostrovskyiv.github.io/Last-Zone-RP/)
+[![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue.svg?style=for-the-badge&logo=github-actions)](https://github.com/ostrovskyiv/Last-Zone-RP/actions)
 
-## Recommended IDE Setup
+> **[🌐 ПЕРЕЙТИ НА САЙТ](https://ostrovskyiv.github.io/Last-Zone-RP/)**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Современный, адаптивный лендинг для игрового сервера в сеттинге **S.T.A.L.K.E.R.**, построенный на стеке **Vue 3 + Vite + Tailwind CSS**.
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Быстрый старт
 
-## Customize configuration
+Если вы хотите запустить проект локально:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/ostrovskyiv/Last-Zone-RP.git
+   ```
+2. **Перейдите в папку проекта:**
+   ```bash
+   cd Last-Zone-RP
+   ```
+3. **Установите зависимости:**
+   ```bash
+   npm install
+   ```
+4. **Запустите сервер для разработки:**
+   ```bash
+   npm run dev
+   ```
+5. Откройте [http://localhost:5173](http://localhost:5173) в браузере.
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 🛠 Технологический стек
 
-### Compile and Hot-Reload for Development
+*   **Framework:** [Vue 3](https://vuejs.org/) (Composition API + Script Setup)
+*   **Сборщик:** [Vite](https://vitejs.dev/)
+*   **Стили:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Язык:** [TypeScript](https://www.typescript.org/)
+*   **Деплой:** GitHub Actions (автоматическая сборка при пуше в `main`)
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
+## ✨ Особенности и "Фишки" проекта
 
-```sh
-npm run build
-```
+### 1. Интерактивная 3D-Галерея
+Одной из главных особенностей является секция галереи с эффектом переворота карт (Flip Cards).
+*   **Логика:** При наведении (`hover`) карта плавно разворачивается на 180 градусов, показывая другое изображение.
+*   **Реализация:** Использованы CSS-свойства `preserve-3d` и `backface-visibility: hidden` для создания честного 3D-эффекта.
 
-### Lint with [ESLint](https://eslint.org/)
+![Галерея проекта](./screenshots/pngGall.png)
 
-```sh
-npm run lint
-```
+### 2. Секция "Как начать играть"
+Пошаговая инструкция для игроков, оформленная в стилистике игры.
+*   Использование кастомных шрифтов (`capture-it`, `Caprasimo`) для передачи атмосферы сталкерства.
+*   Адаптивные стрелки, которые меняют направление в зависимости от размера экрана.
+
+![Галерея проекта](./screenshots/pngGame.png)
+
+### 3. Полная адаптивность
+Сайт полностью оптимизирован под мобильные устройства (использовал стандартные размеры указанные пользователем при составлении тз,использовал базовые sm md lg xl 2xl), планшеты и мониторы высокого разрешения благодаря адаптивной сетке Tailwind CSS.
+
+![Галерея проекта](./screenshots/pngAdapt.png)
+---
+
+## 📋 Правовая информация и референсы
+
+Данный проект опубликован в открытом доступе с **официального разрешения владельцев сервера Last Zone RP**.
+
+*   **Дизайн и проектирование:** Весь визуальный интерфейс и структура сайта были разработаны мной с нуля.
+*   **Координация:** Разработка проходила при активной координации команды проекта Last Zone.
+*   **Первый макет (Figma):** Ссылка на мой первый черновой макет, который стал основой для текущего дизайна:  
+    👉 **[Посмотреть макет в Figma](https://www.figma.com/design/CK3lQbscJ1mPBwHUTDtGRK/Untitled?node-id=0-1&p=f&t=FykEcyqVho7M053U-0)**
+
+### Ресурсы проекта:
+*   [Официальный сайт проекта (Основной)](https://lastzonerp.ru/)
+*   [Альтернативный адрес](https://lastzone.ru/)
+
+---
+
+## 👨‍💻 Автор
+Проект разработан **Ivan Ostrovsky** в 2025 году, по всем вопросам писать в Telegram или на Email.
+
+*   **Telegram:** [@Bambuk_lov](https://t.me/Bambuk_lov)
+*   **Email:** [ostrovskyiml@mail.com](mailto:ostrovskyiml@gmail.com)
+
+---
