@@ -1,5 +1,5 @@
 <template>
-<header class="min-h-screen bg-center bg-cover bg-[url('/images/HeaderBackground.jpg')]">
+<header class="min-h-screen bg-center bg-cover bg-[url('/images/HeaderBackground.webp')]">
   <div class="grid grid-cols-1 gap-55">
     <div class=" flex w-full justify-between items-end p-6">
       <div class="flex items-end">
